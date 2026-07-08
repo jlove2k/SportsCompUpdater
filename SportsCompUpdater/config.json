@@ -1,0 +1,19 @@
+{
+  "player_column": "A",
+  "first_data_row": 2,
+  "stat_columns": {
+    "points": "E",
+    "rebounds": "F",
+    "assists": "G",
+    "blocks": "H",
+    "steals": "I",
+    "ft_pct": "J",
+    "fg_pct": "K",
+    "three_pm": "L",
+    "fga": "M",
+    "fgm": "N",
+    "fta": "O",
+    "ftm": "P"
+  }
+}
+

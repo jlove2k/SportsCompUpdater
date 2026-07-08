@@ -1,0 +1,21 @@
+[project]
+name = "sports-comp-updater"
+version = "0.1.0"
+description = "Update NBA stat spreadsheets with combined regular season and playoff totals."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "nba_api>=1.8.0",
+  "openpyxl>=3.1.5",
+  "rapidfuzz>=3.9.7"
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=8.2.0"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
