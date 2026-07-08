@@ -1,5 +1,5 @@
 [project]
-name = "sports-comp-updater"
+name = "sportscomp"
 version = "0.1.0"
 description = "Update NBA stat spreadsheets with combined regular season and playoff totals."
 readme = "README.md"

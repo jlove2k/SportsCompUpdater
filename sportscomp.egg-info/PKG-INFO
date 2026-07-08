@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: sportscomp
+Version: 0.1.0
+Summary: Update NBA stat spreadsheets with combined regular season and playoff totals.
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: nba_api>=1.8.0
+Requires-Dist: openpyxl>=3.1.5
+Requires-Dist: rapidfuzz>=3.9.7
+Provides-Extra: test
+Requires-Dist: pytest>=8.2.0; extra == "test"
+
+# SportsCompUpdater
+Sports Comp
